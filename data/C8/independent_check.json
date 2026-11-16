@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_NUMERICAL_CROSSCHECK",
+  "utc": "2026-10-24T09:26:36.643377+00:00",
+  "windows": 42,
+  "formal": 36,
+  "comparisons": 6,
+  "phase_partitions": 42,
+  "crosschecks": [
+    "stdlib median arithmetic",
+    "independent cleanup sums",
+    "scipy exact binomial test",
+    "independent bootstrap loop",
+    "Holm family arithmetic",
+    "balanced positions"
+  ],
+  "R_crosscheck": "UNAVAILABLE_Rscript_not_on_PATH",
+  "scope": "Arithmetic and implementation agreement; no causal or exchangeability proof"
+}

@@ -1,0 +1,87 @@
+{
+  "created_at_utc": "2026-10-24T09:34:37.104314+00:00",
+  "schema": "greator.evidence_strength.v1",
+  "data_audit": "PASS_WITH_ENVIRONMENT_WARNINGS",
+  "numerical_crosscheck": "PASS",
+  "original_primary_hypothesis": "NOT_SUPPORTED_OPPOSITE_DIRECTION",
+  "planned_branch": "NO_POSITIVE_EFFECT_SUPPORTED",
+  "full_Light_checkpoint_pass": false,
+  "conditional_primary_effect": {
+    "n": 6,
+    "reference_median_s": 87.06362319500113,
+    "target_median_s": 98.55888844199853,
+    "median_ratio_reduction_pct": -13.203292977195357,
+    "paired_pct": [
+      -17.28477987633854,
+      -13.468840005073757,
+      -2.8515945765977824,
+      -19.994335983169375,
+      -18.68418125445015,
+      -7.6077164553050025
+    ],
+    "paired_median_pct": -15.37680994070615,
+    "paired_iqr_pct": [
+      -18.334330909922247,
+      -9.072997342747191
+    ],
+    "mean_log_target_reference": 0.12346703104769648,
+    "mean_log_ci95": [
+      0.0759323943910366,
+      0.16536841266966273
+    ],
+    "geometric_mean_reduction_pct": -13.14127024357543,
+    "geometric_reduction_ci95_pct": [
+      -17.982770212693964,
+      -7.888963270106286
+    ],
+    "mean_paired_seconds_saved": -11.49032610183167,
+    "positive_pairs": 0,
+    "ties": 0,
+    "sign_p_two_sided": 0.03125,
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 20261024,
+    "confidence_interval_estimand": "paired mean log target/reference ratio, monotonically transformed to percent reduction; not ratio of arm medians",
+    "B": 200,
+    "target": "A1_F",
+    "reference": "DIRECT_PARALLEL",
+    "comparison_id": "B200:A1_F_vs_DIRECT_PARALLEL",
+    "family": "primary",
+    "mean_stage_seconds_saved": {
+      "maintenance_teardown": 1.7888157180000002,
+      "query_teardown": 1.7209269219999996,
+      "final_cleanup": -0.22308439449999998,
+      "fsync_tail": -0.06421205283333335,
+      "maintenance_remaining": -14.432769283333334,
+      "other_window": -0.28000301116666665
+    },
+    "mean_marked_seconds_saved": 3.2866582455,
+    "mean_rest_seconds_saved": -14.776984347331664,
+    "mean_fine_seconds_saved": {
+      "deletion": 1.50413333333333e-05,
+      "final_cleanup": -0.22308439449999998,
+      "final_query": -0.302509105,
+      "fsync_tail": -0.06421205283333335,
+      "initial_load": -0.00011714133333333374,
+      "insertion": -0.003262406166666662,
+      "maintenance_load": -0.005441801833333333,
+      "maintenance_teardown": 1.7888157180000002,
+      "merge_core_and_other": -14.540691788666665,
+      "outer_batch": -0.00012854966666666552,
+      "process_other": 0.025998827333333346,
+      "query_reload_remaining": 0.11336430716666668,
+      "query_teardown": 1.7209269219999996,
+      "reader_destruct": 3.223333333333333e-07
+    },
+    "adjusted_p_holm": 0.03125
+  },
+  "allowed_conclusion": "Current platform B200 has six slower A1_F pairs; cleanup saving and complete-window time differ.",
+  "forbidden_conclusions": [
+    "Universal pooling advantage",
+    "CPU or SATA individually caused the reversal",
+    "Old P1 hardware root cause solved",
+    "Methodology novelty established by a negative result alone",
+    "Thermal throttling ruled out"
+  ],
+  "JSS_readiness": "Not established by this audit; novelty and causal-depth review remain separate",
+  "result_cards": "REVISION_REQUIRED because environmental/exchangeability assumptions remain unresolved"
+}

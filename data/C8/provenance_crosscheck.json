@@ -1,0 +1,178 @@
+{
+  "status": "PASS_RUN_RESULT_RUNTIME_FREEZE_IDENTITY_AND_TEMPORAL_ORDER",
+  "utc": "2026-10-24T09:41:39.720230+00:00",
+  "windows": 42,
+  "blocks": [
+    {
+      "B": 200,
+      "block": 1,
+      "roots": [
+        "sci-server-recovery-20261024-v4"
+      ],
+      "first_to_last_start_gap_s": 290.12486797600104,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B200_b1_p1_DIRECT_PARALLEL",
+        "F_B200_b1_p2_DIRECT_SERIAL",
+        "F_B200_b1_p3_A1_F"
+      ]
+    },
+    {
+      "B": 200,
+      "block": 2,
+      "roots": [
+        "sci-server-recovery-20261024-v6",
+        "sci-server-recovery-20261024-v7"
+      ],
+      "first_to_last_start_gap_s": 1041.5067874270026,
+      "acquisition_segment_boundary": true,
+      "order": [
+        "F_B200_b2_p1_DIRECT_PARALLEL",
+        "F_B200_b2_p2_A1_F",
+        "F_B200_b2_p3_DIRECT_SERIAL"
+      ]
+    },
+    {
+      "B": 200,
+      "block": 3,
+      "roots": [
+        "sci-server-recovery-20261024-v7"
+      ],
+      "first_to_last_start_gap_s": 294.5346774739992,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B200_b3_p1_A1_F",
+        "F_B200_b3_p2_DIRECT_PARALLEL",
+        "F_B200_b3_p3_DIRECT_SERIAL"
+      ]
+    },
+    {
+      "B": 200,
+      "block": 4,
+      "roots": [
+        "sci-server-recovery-20261024-v7"
+      ],
+      "first_to_last_start_gap_s": 299.84544988500056,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B200_b4_p1_DIRECT_SERIAL",
+        "F_B200_b4_p2_DIRECT_PARALLEL",
+        "F_B200_b4_p3_A1_F"
+      ]
+    },
+    {
+      "B": 200,
+      "block": 5,
+      "roots": [
+        "sci-server-recovery-20261024-v7"
+      ],
+      "first_to_last_start_gap_s": 307.5836977759973,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B200_b5_p1_DIRECT_SERIAL",
+        "F_B200_b5_p2_A1_F",
+        "F_B200_b5_p3_DIRECT_PARALLEL"
+      ]
+    },
+    {
+      "B": 200,
+      "block": 6,
+      "roots": [
+        "sci-server-recovery-20261024-v7"
+      ],
+      "first_to_last_start_gap_s": 266.501573608999,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B200_b6_p1_A1_F",
+        "F_B200_b6_p2_DIRECT_SERIAL",
+        "F_B200_b6_p3_DIRECT_PARALLEL"
+      ]
+    },
+    {
+      "B": 2000,
+      "block": 1,
+      "roots": [
+        "sci-server-recovery-20261024-v4"
+      ],
+      "first_to_last_start_gap_s": 90.93065031600054,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B2000_b1_p1_A1_F",
+        "F_B2000_b1_p2_DIRECT_PARALLEL",
+        "F_B2000_b1_p3_DIRECT_SERIAL"
+      ]
+    },
+    {
+      "B": 2000,
+      "block": 2,
+      "roots": [
+        "sci-server-recovery-20261024-v4",
+        "sci-server-recovery-20261024-v6"
+      ],
+      "first_to_last_start_gap_s": 4798.195994856998,
+      "acquisition_segment_boundary": true,
+      "order": [
+        "F_B2000_b2_p1_DIRECT_PARALLEL",
+        "F_B2000_b2_p2_A1_F",
+        "F_B2000_b2_p3_DIRECT_SERIAL"
+      ]
+    },
+    {
+      "B": 2000,
+      "block": 3,
+      "roots": [
+        "sci-server-recovery-20261024-v7"
+      ],
+      "first_to_last_start_gap_s": 91.31593933300246,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B2000_b3_p1_DIRECT_PARALLEL",
+        "F_B2000_b3_p2_DIRECT_SERIAL",
+        "F_B2000_b3_p3_A1_F"
+      ]
+    },
+    {
+      "B": 2000,
+      "block": 4,
+      "roots": [
+        "sci-server-recovery-20261024-v7"
+      ],
+      "first_to_last_start_gap_s": 135.4222085049987,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B2000_b4_p1_DIRECT_SERIAL",
+        "F_B2000_b4_p2_DIRECT_PARALLEL",
+        "F_B2000_b4_p3_A1_F"
+      ]
+    },
+    {
+      "B": 2000,
+      "block": 5,
+      "roots": [
+        "sci-server-recovery-20261024-v7"
+      ],
+      "first_to_last_start_gap_s": 137.25556791599956,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B2000_b5_p1_A1_F",
+        "F_B2000_b5_p2_DIRECT_SERIAL",
+        "F_B2000_b5_p3_DIRECT_PARALLEL"
+      ]
+    },
+    {
+      "B": 2000,
+      "block": 6,
+      "roots": [
+        "sci-server-recovery-20261024-v7"
+      ],
+      "first_to_last_start_gap_s": 90.96404348699798,
+      "acquisition_segment_boundary": false,
+      "order": [
+        "F_B2000_b6_p1_DIRECT_SERIAL",
+        "F_B2000_b6_p2_A1_F",
+        "F_B2000_b6_p3_DIRECT_PARALLEL"
+      ]
+    }
+  ],
+  "interpretation": "Matching block identity does not imply identical environmental state; split blocks explicitly retained and sensitivity reported"
+}

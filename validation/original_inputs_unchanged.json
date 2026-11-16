@@ -1,0 +1,7 @@
+{
+  "status": "PASS_READ_ONLY_INPUT_PRESERVATION",
+  "prior_artifact_manifest_files_unchanged": 273,
+  "current_manuscript_snapshot_files_identical": 8,
+  "original_experiment_runs_restarted": 0,
+  "original_manuscript_edited": false
+}

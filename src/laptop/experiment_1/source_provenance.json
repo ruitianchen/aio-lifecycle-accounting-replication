@@ -1,0 +1,860 @@
+{
+  "experiment": 1,
+  "archive_groups": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ],
+  "historical_build_manifest_sha256": "e138ae34c65233c87942e8692c093bd549b3519ff65c9d9deabd27bc61c03201",
+  "historical_freeze_sha256": {
+    "P1": "2058f1cba6b1ae456b7ecd267b0ea431bd2703298a1814f6c1fcb3d64f20f03d",
+    "P2": "8e5bff4f89c5319bda61161a1ae13b7c09ef26c32e135a8ffbcfd7f3e4db14f2",
+    "P3": "1b14aaa04b512bbc5a19f0d015d276186555e8c75cff3d284413532376400c0e",
+    "P4": "620df47ec8fd2aebb19e3706c473e8e045600dc96ffd6ecb35adcb80f35bbdb1"
+  },
+  "source_files": [
+    {
+      "path": "dependencies/verify_pq.cpp",
+      "sha256": "fb2bb16423372409795d47f8c3943571dd9297e5b7c44958474913d193fa1d81"
+    },
+    {
+      "path": "driver.cpp",
+      "sha256": "3535102b02e18c64ee7a05a82bc77971a4fa7003ae5af1c97240ab781ae670ed"
+    },
+    {
+      "path": "runtime/bulk_io.hpp",
+      "sha256": "c21dd48dee65b4f594c41f20ce8bf8aeee782e8a56899cde1a5b825da17a03d4"
+    },
+    {
+      "path": "runtime/composition_runtime.cpp",
+      "sha256": "624ab1935b282b94886df916efb5ef8659394812a3da381b167b8311c2994b65"
+    },
+    {
+      "path": "runtime/composition_runtime.hpp",
+      "sha256": "0e1255d97344fbac28f78f50ab8842ec7f2204af8568a4c116a324d01da02193"
+    },
+    {
+      "path": "runtime/raw_clock.hpp",
+      "sha256": "8c91af76689b45cd118adfbe234376fd12cce7d44affaeb56dc90bd11ea1ef70"
+    },
+    {
+      "path": "runtime/supplement_trace.hpp",
+      "sha256": "aadae3451f09dabda294e32e86dd68d4ec52b659afc85b77fe6a78bd87e5838d"
+    },
+    {
+      "path": "source/LICENSE",
+      "sha256": "893458adccb2615dd3ff26ed53670fd18189081f46080cdb8cc261cb20fa201e"
+    },
+    {
+      "path": "source/NOTICE.txt",
+      "sha256": "6bd92b718a0245af7c167d15c3044b64203872435085ceb53c5cd4d16c9ce806"
+    },
+    {
+      "path": "source/include/Neighbor_Tag.h",
+      "sha256": "d453ef1b0444f5376732e0723b35b6376520e2be586eae4ac09fe3102c4fb1b6"
+    },
+    {
+      "path": "source/include/aligned_file_reader.h",
+      "sha256": "87c095a2959068467050aff1adc3201ea6a027515cbf41e4488ea74d1c74f4b3"
+    },
+    {
+      "path": "source/include/ann_exception.h",
+      "sha256": "2c90088d27cb2168440f4b2d5645ed99a61e6e70c70396b70177e06a1b3f97e8"
+    },
+    {
+      "path": "source/include/aux_utils.h",
+      "sha256": "4db2fc92dde0bf69b21e0928fc93faecdfcda5ceef1e36843803100e6d319871"
+    },
+    {
+      "path": "source/include/cached_io.h",
+      "sha256": "f12742c670543f66e374390f9acee965404bd0e2d1ff182dca69377878da24aa"
+    },
+    {
+      "path": "source/include/common_includes.h",
+      "sha256": "6e3b1807d3303aff3b84e7fc06afecdefb6699185f67824ee702014ca48e557b"
+    },
+    {
+      "path": "source/include/concurrent_queue.h",
+      "sha256": "336bbe4f94d120bda3d7c74dd663cb13886e2409d0a2e69b86cab8e5acc0caf5"
+    },
+    {
+      "path": "source/include/content_buf.h",
+      "sha256": "f562e8218c77ee45e7f1ee1e9e64770ffc468e16add025aa8234baf5b1c97768"
+    },
+    {
+      "path": "source/include/cosine_similarity.h",
+      "sha256": "8d1b0d76fb36d1b22cdc4f9e4ce8dfcc8f624310d2087f686dcb0a46cb4c8419"
+    },
+    {
+      "path": "source/include/ctpl_stl.h",
+      "sha256": "0935b331a5298751fe672371e7cb4437db283261fe350f356b953b124935f8f4"
+    },
+    {
+      "path": "source/include/distance.h",
+      "sha256": "365b636b6c07a80cde3a7688130abd18e6b76c8efdc3757caec7343373246898"
+    },
+    {
+      "path": "source/include/exceptions.h",
+      "sha256": "56c6e925c8510ac196dd8d9eb1064b1f2e0d969cf27468f2bd84b660e87d08d9"
+    },
+    {
+      "path": "source/include/file_content.h",
+      "sha256": "82e8bdf23af768cdf8cf943b0f25c5c6379206fd877c411ca566e9dff630b162"
+    },
+    {
+      "path": "source/include/index.h",
+      "sha256": "4532a2de4b8b55e012c375495c0e6188974945a404baef1d49f960fb7a1ba384"
+    },
+    {
+      "path": "source/include/linux_aligned_file_reader.h",
+      "sha256": "57a3374c81af7cb45bca7a01ee62fc6c734ab20ba3fb9d4c1348004537bc4c94"
+    },
+    {
+      "path": "source/include/logger.h",
+      "sha256": "9a29f12b95af49fec416533bb7167034551e543151972e68610d9b42ee7f8277"
+    },
+    {
+      "path": "source/include/logger_impl.h",
+      "sha256": "048d3724cd670ea4087f7b522dafcb384a6aa8cc682d41ffa6366bd6264cb013"
+    },
+    {
+      "path": "source/include/math_utils.h",
+      "sha256": "dcc44a62b3c08ab630015d53b1bde9e83991a02aceba8ab9c759ff3cd9094acf"
+    },
+    {
+      "path": "source/include/memory_mapper.h",
+      "sha256": "95e874284dd2525f9197d1a2c2cc14842d7b9e4ea5b95fc814cd55f18744c8f9"
+    },
+    {
+      "path": "source/include/neighbor.h",
+      "sha256": "de6eda3aa37c00301f3b03762fb8af76cb948897e36406b8ecaaa45930f243ff"
+    },
+    {
+      "path": "source/include/parameters.h",
+      "sha256": "2c7343be786226b91a84af00943f7c4227170cf254cea2a093ba4e0740e9e2d0"
+    },
+    {
+      "path": "source/include/partition_and_pq.h",
+      "sha256": "3953d7a8b558d377418a0c6449b2e1663ddf5ed101d8e53fc5a0c6947fb4ebb3"
+    },
+    {
+      "path": "source/include/percentile_stats.h",
+      "sha256": "8a4dcb6073a190d53efc1be86c7afee877679ca64c24510b03c1e0b7b7c40286"
+    },
+    {
+      "path": "source/include/pq_flash_index.h",
+      "sha256": "8aeea994a80fad99d199ab87cbdd3cedc1bd7c29558ecacc4a3e3cc0d91304cb"
+    },
+    {
+      "path": "source/include/pq_table.h",
+      "sha256": "ba34f2f27661c71bb9337a1b955349820da65723dbc9c293acb7080dc3116e44"
+    },
+    {
+      "path": "source/include/simd_utils.h",
+      "sha256": "1b92617bb3efb42fd48e381cdbd852acee70db1bdde8445176260f7c84c6178f"
+    },
+    {
+      "path": "source/include/tcmalloc/LICENSE.txt",
+      "sha256": "40558cad61192d6e9032a7cc47db4ea8b7f6f9bc7946b4dee6712d3e51233030"
+    },
+    {
+      "path": "source/include/tcmalloc/malloc_extension.h",
+      "sha256": "e83251f3b9ff019a4c6eb4c92789cf8a3188f035dc5de1158ebdc9db58709577"
+    },
+    {
+      "path": "source/include/threadpool.h",
+      "sha256": "a15da01a31e03728d0cc470f819cfab12954cac51684c7ad85007de67da5148b"
+    },
+    {
+      "path": "source/include/timer.h",
+      "sha256": "26d72f039f2c7fa71c3c4c4f22388e49815a8175662eabfd24bdda73a8de7ade"
+    },
+    {
+      "path": "source/include/tsl/LICENSE",
+      "sha256": "11f2c685ba565a31aef1219f63a7a8845602c97bff70016b9e3278dfe51a2ec5"
+    },
+    {
+      "path": "source/include/tsl/include/tsl/robin_growth_policy.h",
+      "sha256": "cc036dc24100fa5dddbb9763df96e8be7be52c24535d64ae0982cad08700f2f1"
+    },
+    {
+      "path": "source/include/tsl/include/tsl/robin_hash.h",
+      "sha256": "0eabe7b2ded3e516eb2d705d4f91b66b2f87a07ea71254415d43d4e2e0a2c013"
+    },
+    {
+      "path": "source/include/tsl/include/tsl/robin_map.h",
+      "sha256": "646ff02b0213ce36dcd1176f4c5306a5663cd069ef5e2acaac5efe9915910d43"
+    },
+    {
+      "path": "source/include/tsl/include/tsl/robin_set.h",
+      "sha256": "e10e3d5d26ea83a41d1b9c4d49a2365b71380a5a0f444d0a2b006204c14190ed"
+    },
+    {
+      "path": "source/include/tsl/robin_growth_policy.h",
+      "sha256": "95758ae603fa63e84cb6857f73af9ef94b1ac6a2c4be6deddca02075a24b9834"
+    },
+    {
+      "path": "source/include/tsl/robin_hash.h",
+      "sha256": "36fcfd03e0b8d035ac222c73980f4b44088c3648363fb5985b431dcad62bece1"
+    },
+    {
+      "path": "source/include/tsl/robin_map.h",
+      "sha256": "8fae48ec1195d8aedd99371421aab4d389fd386418becdcda3e4d4eb9e727568"
+    },
+    {
+      "path": "source/include/tsl/robin_set.h",
+      "sha256": "5e16de8a70bc56c18dfa3534d7c376a8a642b691004d6c10d0593516bf7db348"
+    },
+    {
+      "path": "source/include/utils.h",
+      "sha256": "4d161aef4e927324406371b656a4a5c8dbc193657d0c3da29663df5e47ec82dd"
+    },
+    {
+      "path": "source/include/v2/aux_dist.h",
+      "sha256": "3ff4446daf18d447adc365741a371ee41c9a9775db4bf0547ed1e82b423b8f59"
+    },
+    {
+      "path": "source/include/v2/delete_set.h",
+      "sha256": "c927846632cae2386acf614c543b472911ae8b08a633db4c4c6ea84c979fe38a"
+    },
+    {
+      "path": "source/include/v2/fs_allocator.h",
+      "sha256": "611032a05779c25f90af6ccbe72e8dfb57b91a7bf8124c39c77cad984ff9d77a"
+    },
+    {
+      "path": "source/include/v2/graph_delta.h",
+      "sha256": "0be78e29e9cdf02d663f901bf02d058e2117901eb9ddfe948caf89dfec1933bd"
+    },
+    {
+      "path": "source/include/v2/index_merger.h",
+      "sha256": "b3ce162755971f7582989825a6b831093c2c24f4712e75f644f604c8eea5fb53"
+    },
+    {
+      "path": "source/include/v2/lock.h",
+      "sha256": "819709d783bcfaea720effe3d398988a6fde3371863672b4dc6ba6a36f951df2"
+    },
+    {
+      "path": "source/include/v2/merge_insert.h",
+      "sha256": "831e4c2bda1988316560ab257e13ec449fc9afed9ad7fbfedbe07aaa16fb28a0"
+    },
+    {
+      "path": "source/include/windows_aligned_file_reader.h",
+      "sha256": "7cd9f1423027482a5e093ff3566959503fd103aeb3afb353a7e4e0757c806d74"
+    },
+    {
+      "path": "source/include/windows_customizations.h",
+      "sha256": "05d2370372cde18e6195c0d99ea29fd1dfe6f4b61c814c700900446aebe85572"
+    },
+    {
+      "path": "source/portable_blas/mkl.h",
+      "sha256": "3587676df70b5b63c63dae1a86598e1754a5425634cc8e83b8c08e5e9b157388"
+    },
+    {
+      "path": "source/src/ann_exception.cpp",
+      "sha256": "f9b0b95444696f93066da2296f36ebceb55fa8cec01dfbaff2c085dec0cf607d"
+    },
+    {
+      "path": "source/src/aux_utils.cpp",
+      "sha256": "0283b9c47941e7c2b1ba405a2be79c61117c02110c34d4a89bc7b78b3e1f4ed8"
+    },
+    {
+      "path": "source/src/convert/convert.cpp",
+      "sha256": "726dc32cbda6e0c16880f5af0033dff90910e0ff45ca008845f29d7a3110e83a"
+    },
+    {
+      "path": "source/src/copy_index.cpp",
+      "sha256": "d817e3e9972558bf77597706a8790245577e6963bb7646d249b897f55726104a"
+    },
+    {
+      "path": "source/src/distance.cpp",
+      "sha256": "128b0ba4c4fd59abaa4e7f0ab43b3815ea9be4563b1210251facfa6e702a9f9b"
+    },
+    {
+      "path": "source/src/dll/dllmain.cpp",
+      "sha256": "e330b912252904ffc6d9628d0e3ba74c774ca85d819db3cde6981ec79c1de5b3"
+    },
+    {
+      "path": "source/src/index.cpp",
+      "sha256": "10ae540a67c0e93917740976adc83bbe81270a6f418b769525c4b20e293d6178"
+    },
+    {
+      "path": "source/src/linux_aligned_file_reader.cpp",
+      "sha256": "f189efab23873ade95512d76ee6acfcb5c775551eb630b6f13b480c83e168da7"
+    },
+    {
+      "path": "source/src/logger.cpp",
+      "sha256": "73dae37fd4c1ef4ac9241546d0cd38c9891761af66a683ee7e07b6efd57303d9"
+    },
+    {
+      "path": "source/src/math_utils.cpp",
+      "sha256": "faf25fde43dfca3e2c541e95ef6343c665f1b8900c9b1d6aa35dfdca36983c16"
+    },
+    {
+      "path": "source/src/memory_mapper.cpp",
+      "sha256": "1c57aaa17bb924f43b4a4a6da5f9132560e1c648b784314cc6b8201195bcca83"
+    },
+    {
+      "path": "source/src/partition_and_pq.cpp",
+      "sha256": "59ffb46e2c3e9d16699f76a9d6510ca967bd7580fea3da5ac7d58c5237ed360e"
+    },
+    {
+      "path": "source/src/pq_flash_index.cpp",
+      "sha256": "655af3127552588aef7af5ffddb0f64a31752687b21aec246f1012721656d2cf"
+    },
+    {
+      "path": "source/src/utils.cpp",
+      "sha256": "d94fba5ebc9c7c0c80f32a789fd8239fcd2ad8047ead339167404b638c525898"
+    },
+    {
+      "path": "source/src/v2/delete_set.cpp",
+      "sha256": "1262177f13ebdd1b140eacc32cb4dc7d8d727a341007d46379e86afad1cc8a4e"
+    },
+    {
+      "path": "source/src/v2/fs_allocator.cpp",
+      "sha256": "0d3a9a516620718e6a63725a9228dd09d4d515fa31f540004b3512e3611f8874"
+    },
+    {
+      "path": "source/src/v2/graph_delta.cpp",
+      "sha256": "9883a4b9d9af499cad6e92571e538baebe726be3f408df9d33b5caf182e2958a"
+    },
+    {
+      "path": "source/src/v2/index_merger.cpp",
+      "sha256": "1c9261af7f919cc63f8af6926c97a81107cedc59531a797296470ae0824e5301"
+    },
+    {
+      "path": "source/src/v2/merge_insert.cpp",
+      "sha256": "160df6643199108078a433bca9fab89c9fe14191fd55ba8d122fffb22d170831"
+    },
+    {
+      "path": "source/src/windows_aligned_file_reader.cpp",
+      "sha256": "2d9c473cca19d638fde0dd2ef5d38fd200d3ef89f8560aecc72850be04b4b40a"
+    },
+    {
+      "path": "source/tests/search_disk_index.cpp",
+      "sha256": "a0c13a33ecef71fdbd6819f624b84f57b51f89cb98ad924dcef86046a6f8c84a"
+    }
+  ],
+  "build_history": "The four campaigns share the same maintenance build. Experiment 1 includes the originally compiled validation-oracle source.",
+  "archived_build_commands": [
+    {
+      "name": "lib0",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/ann_exception.cpp",
+        "-o",
+        "<experiment_1>/build/lib0.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib4",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/memory_mapper.cpp",
+        "-o",
+        "<experiment_1>/build/lib4.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib2",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/linux_aligned_file_reader.cpp",
+        "-o",
+        "<experiment_1>/build/lib2.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib3",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/math_utils.cpp",
+        "-o",
+        "<experiment_1>/build/lib3.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib7",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/logger.cpp",
+        "-o",
+        "<experiment_1>/build/lib7.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib8",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/distance.cpp",
+        "-o",
+        "<experiment_1>/build/lib8.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib5",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/partition_and_pq.cpp",
+        "-o",
+        "<experiment_1>/build/lib5.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib9",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/utils.cpp",
+        "-o",
+        "<experiment_1>/build/lib9.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib11",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/v2/graph_delta.cpp",
+        "-o",
+        "<experiment_1>/build/lib11.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib1",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/aux_utils.cpp",
+        "-o",
+        "<experiment_1>/build/lib1.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib12",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/v2/merge_insert.cpp",
+        "-o",
+        "<experiment_1>/build/lib12.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib13",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/runtime/composition_runtime.cpp",
+        "-o",
+        "<experiment_1>/build/lib13.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib10",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/pq_flash_index.cpp",
+        "-o",
+        "<experiment_1>/build/lib10.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib6",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/index.cpp",
+        "-o",
+        "<experiment_1>/build/lib6.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "lib14",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "-c",
+        "<experiment_1>/source/src/v2/index_merger.cpp",
+        "-o",
+        "<experiment_1>/build/lib14.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "archive",
+      "argv": [
+        "ar",
+        "rcs",
+        "<experiment_1>/build/libdiskann_native.a",
+        "<experiment_1>/build/lib0.o",
+        "<experiment_1>/build/lib2.o",
+        "<experiment_1>/build/lib4.o",
+        "<experiment_1>/build/lib3.o",
+        "<experiment_1>/build/lib5.o",
+        "<experiment_1>/build/lib7.o",
+        "<experiment_1>/build/lib8.o",
+        "<experiment_1>/build/lib1.o",
+        "<experiment_1>/build/lib9.o",
+        "<experiment_1>/build/lib11.o",
+        "<experiment_1>/build/lib10.o",
+        "<experiment_1>/build/lib12.o",
+        "<experiment_1>/build/lib13.o",
+        "<experiment_1>/build/lib6.o",
+        "<experiment_1>/build/lib14.o"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "overall",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "<experiment_1>/driver.cpp",
+        "<experiment_1>/build/libdiskann_native.a",
+        "-laio",
+        "-ltbb",
+        "-lopenblas",
+        "-llapacke",
+        "-lpthread",
+        "-ldl",
+        "-lrt",
+        "-o",
+        "<experiment_1>/build/overall"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "search",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "<experiment_1>/source/tests/search_disk_index.cpp",
+        "<experiment_1>/build/libdiskann_native.a",
+        "-laio",
+        "-ltbb",
+        "-lopenblas",
+        "-llapacke",
+        "-lpthread",
+        "-ldl",
+        "-lrt",
+        "-o",
+        "<experiment_1>/build/search"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "pq_oracle",
+      "argv": [
+        "g++",
+        "-O3",
+        "-DNDEBUG",
+        "-march=native",
+        "-mtune=native",
+        "-std=gnu++14",
+        "-fopenmp",
+        "-DUSE_ACCELERATED_PQ",
+        "-DUSE_AVX2",
+        "-I<experiment_1>/source/portable_blas",
+        "-I<experiment_1>/source/include",
+        "-I<experiment_1>/source/include/tsl/include",
+        "-I<experiment_1>/source/include/dll",
+        "-I<experiment_1>/source/include/ols",
+        "-I<experiment_1>/runtime",
+        "-DPRUNE_TH=2",
+        "<experiment_1>/dependencies/verify_pq.cpp",
+        "<experiment_1>/build/libdiskann_native.a",
+        "-laio",
+        "-ltbb",
+        "-lopenblas",
+        "-llapacke",
+        "-lpthread",
+        "-ldl",
+        "-lrt",
+        "-o",
+        "<experiment_1>/build/pq_oracle"
+      ],
+      "returncode": 0
+    }
+  ],
+  "archived_binary_hashes": {
+    "overall": "abf97c1b6277d85824a446ee0edec6052dee9f4544663ef1d6b3bf40014ab3f9",
+    "search": "eab33ab540474b244be672c816dba0cf5fcff05cf5837f1d07b564f00ab6197a",
+    "pq_oracle": "0efe751c3d7069b0b9ebfc9a850d3211f30d332699d8aea3c33c40afc42300ce"
+  },
+  "reused_objects": []
+}

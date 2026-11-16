@@ -1,0 +1,13 @@
+{
+  "upstream_license": "https://github.com/iDC-NEU/Greator/blob/cbc85044ff3b208b6b1f26b7a3de6a3d2898bd8e/LICENSE",
+  "workflow_examples_checked": [
+    "https://github.com/actions/checkout/blob/main/README.md",
+    "https://github.com/actions/setup-python/blob/main/README.md"
+  ],
+  "workflow_major_versions_from_official_READMEs": [
+    "checkout@v7",
+    "setup-python@v7"
+  ],
+  "github_large_file_documentation": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+  "checked_date": "2026-10-26"
+}

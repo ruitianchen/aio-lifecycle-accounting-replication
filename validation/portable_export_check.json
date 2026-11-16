@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SEPARATE_ARCHIVE_EXTRACTION_AND_REPLAY",
+  "probe_manifest_files": 356,
+  "zip_crc_check": "PASS",
+  "absolute_path_dependency": "NONE_REQUIRED_FOR_OFFLINE_REPLAY",
+  "working_directory_was_outside_extracted_repository": true,
+  "all_322_formal_windows_replayed": true,
+  "modified_input_rejected": true,
+  "unlisted_extra_file_rejected": true,
+  "restored_copy_integrity": "PASS",
+  "test_mutations_applied_to_generated_copy_only": true,
+  "native_executables_run": 0,
+  "new_scientific_runs": 0,
+  "remote_uploads": 0
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS_RECORDED_DIAGNOSTIC_ACCOUNTING",
+  "C4_processes": 15,
+  "C4_setup_successes": 1329,
+  "C4_destroy_successes": 1329,
+  "C5_processes": 14,
+  "C5_setup_successes": 1410,
+  "C5_destroy_successes": 1410,
+  "C5_valid_measured_snapshots": 3828,
+  "C5_wchan_counts": {
+    "__x64_sys_io_destroy": 3825,
+    "0": 3
+  },
+  "quota_scenes": 9,
+  "quota_setup_attempts": 390,
+  "quota_setup_successes": 387,
+  "quota_destroy_successes": 387,
+  "expected_EAGAIN": 3,
+  "idle_request_slots_per_process": 13312,
+  "system_slot_limit_in_diagnostic": 65536,
+  "idle_slot_fraction_pct": 20.3125,
+  "new_scientific_runs": 0
+}

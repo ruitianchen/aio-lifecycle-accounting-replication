@@ -1,0 +1,13 @@
+{
+  "variant": "C9",
+  "arm": "DIRECT_PARALLEL",
+  "B": 200,
+  "binary": "../build/native/C9/overall",
+  "fixture": "../external_inputs/fixture",
+  "initial_snapshot_prefix": "../external_inputs/initial_snapshot/work",
+  "output": "../outputs/native/new_qualification_001",
+  "detailed_qualification": true,
+  "limit_s": 600,
+  "rss_limit_bytes": 25769803776,
+  "affinity": null
+}

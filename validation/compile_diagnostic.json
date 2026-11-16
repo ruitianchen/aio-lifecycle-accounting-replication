@@ -1,0 +1,9 @@
+{
+  "status": "PASS_COMPILE_AND_LINK_ONLY",
+  "source": "src/diagnostics/native_aio.cpp",
+  "binary_sha256": "497b4713d80a346b59f54de48b3b191caba864986b16f65b26debc9a8606d0ba",
+  "environment": "Local Ubuntu-24.04 WSL / GCC 13.3.0",
+  "executables_run": 0,
+  "AIO_contexts_created": 0,
+  "performance_qualification": false
+}

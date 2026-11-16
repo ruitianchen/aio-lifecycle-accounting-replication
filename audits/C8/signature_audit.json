@@ -1,0 +1,408 @@
+[
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_SERIAL",
+    "stem": "query_u0",
+    "stage": 0,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_SERIAL",
+    "stem": "query_u2000",
+    "stage": 2,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_SERIAL",
+    "stem": "query_u4000",
+    "stage": 4,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_SERIAL",
+    "stem": "query_u6000",
+    "stage": 6,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_SERIAL",
+    "stem": "query_u8000",
+    "stage": 8,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_SERIAL",
+    "stem": "query_u10000",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_PARALLEL",
+    "stem": "query_u0",
+    "stage": 0,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_PARALLEL",
+    "stem": "query_u2000",
+    "stage": 2,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_PARALLEL",
+    "stem": "query_u4000",
+    "stage": 4,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_PARALLEL",
+    "stem": "query_u6000",
+    "stage": 6,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_PARALLEL",
+    "stem": "query_u8000",
+    "stage": 8,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_DIRECT_PARALLEL",
+    "stem": "query_u10000",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_A1_F",
+    "stem": "query_u0",
+    "stage": 0,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_A1_F",
+    "stem": "query_u2000",
+    "stage": 2,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_A1_F",
+    "stem": "query_u4000",
+    "stage": 4,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_A1_F",
+    "stem": "query_u6000",
+    "stage": 6,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_A1_F",
+    "stem": "query_u8000",
+    "stage": 8,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B200_A1_F",
+    "stem": "query_u10000",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_SERIAL",
+    "stem": "query_u0",
+    "stage": 0,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_SERIAL",
+    "stem": "query_u2000",
+    "stage": 2,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_SERIAL",
+    "stem": "query_u4000",
+    "stage": 4,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_SERIAL",
+    "stem": "query_u6000",
+    "stage": 6,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_SERIAL",
+    "stem": "query_u8000",
+    "stage": 8,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_SERIAL",
+    "stem": "query_u10000",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_PARALLEL",
+    "stem": "query_u0",
+    "stage": 0,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_PARALLEL",
+    "stem": "query_u2000",
+    "stage": 2,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_PARALLEL",
+    "stem": "query_u4000",
+    "stage": 4,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_PARALLEL",
+    "stem": "query_u6000",
+    "stage": 6,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_PARALLEL",
+    "stem": "query_u8000",
+    "stage": 8,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_DIRECT_PARALLEL",
+    "stem": "query_u10000",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_A1_F",
+    "stem": "query_u0",
+    "stage": 0,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_A1_F",
+    "stem": "query_u2000",
+    "stage": 2,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_A1_F",
+    "stem": "query_u4000",
+    "stage": 4,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_A1_F",
+    "stem": "query_u6000",
+    "stage": 6,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_A1_F",
+    "stem": "query_u8000",
+    "stage": 8,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/Q_B2000_A1_F",
+    "stem": "query_u10000",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b1_p1_DIRECT_PARALLEL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b1_p2_DIRECT_SERIAL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b1_p3_A1_F",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B2000_b1_p3_DIRECT_SERIAL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B2000_b2_p1_DIRECT_PARALLEL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b2_p2_A1_F",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b3_p1_A1_F",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b3_p2_DIRECT_PARALLEL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b3_p3_DIRECT_SERIAL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B2000_b3_p3_A1_F",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B2000_b4_p1_DIRECT_SERIAL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B2000_b4_p3_A1_F",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b4_p1_DIRECT_SERIAL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b4_p2_DIRECT_PARALLEL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b4_p3_A1_F",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b5_p1_DIRECT_SERIAL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b5_p2_A1_F",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b5_p3_DIRECT_PARALLEL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B2000_b5_p1_A1_F",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B2000_b5_p3_DIRECT_PARALLEL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b6_p1_A1_F",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  },
+  {
+    "folder": "external-evidence/F_B200_b6_p3_DIRECT_PARALLEL",
+    "stem": "query_exception",
+    "stage": 10,
+    "status": "PASS",
+    "dtype": "float64"
+  }
+]

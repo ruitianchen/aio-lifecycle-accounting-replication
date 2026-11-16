@@ -1,0 +1,23 @@
+{
+  "schema": "greator.figure_reexpression.v1",
+  "figure": "figure_10",
+  "new_scientific_runs": 0,
+  "formal_windows": 36,
+  "derived_pairs": 12,
+  "blocks_per_B": 6,
+  "inputs": {
+    "C8_windows.csv": "08b80941055203bc060f1eb35dc172e1767ca1e7fa50d3d77a8473ee82c14940",
+    "C8_pairs.csv": "bd4dd55bf478d1bfda83e17f3f61fad9178e2c7b4ed4d35f930dea0b692a1a4a"
+  },
+  "source_plot_sha256": "d2186e0450a6dda1a174d0d97b59a5466d031fd13b99fc99a20c37fb412589c1",
+  "source_wrapper_sha256": "99fd9870c80d351c8db700910057138ce9f190d4de9e3f5d48082f9c4ab84d32",
+  "additive_check": "PASS; each paired component sum agrees with full-window difference within 1e-8 seconds",
+  "statistics": "Raw process points, medians and original paired time differences. No added significance claims.",
+  "bundled_inputs": {
+    "C8_windows.csv": "data/C8/window_values.csv",
+    "C8_pairs.csv": "data/C8/paired_differences.csv"
+  },
+  "vector_pdf_sha256": "31ebd23e7ebde7e2c8e43d7d63aad93d31fc8e4c80606ff49a642ce6ec437ea1",
+  "bundled_generator_sha256": "1ba27ffcd93a79428d5e79dde1c98387b8479007a10bb002f55c2fa17ce0172c",
+  "isolated_generator_source_match": true
+}

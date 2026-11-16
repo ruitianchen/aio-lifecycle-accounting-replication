@@ -1,0 +1,27 @@
+{
+  "status": "PASS_DATA_RESOURCE_AND_PAIRING_AUDIT_WITH_ENVIRONMENT_WARNINGS",
+  "utc": "2026-10-24T11:46:24.206828+00:00",
+  "qualification": 3,
+  "formal": 18,
+  "checkpoints": 18,
+  "cross_arm_comparisons": 12,
+  "signature_checks": 28,
+  "retained_paths": 252,
+  "unique_blob_hashes": 29,
+  "metadata_files": 1412,
+  "package_activity_flag": null,
+  "acquisition_roots": [
+    "persistent_v2"
+  ],
+  "old_stops_preserved": true,
+  "controller_status_not_modified": true,
+  "inference_limits": [
+    "One fixed graph and trajectory",
+    "six process blocks, one batch size",
+    "failed earlier qualifier preserved separately",
+    "remaining time-order and scheduler confounding",
+    "not out-of-core",
+    "no direct thermal-throttle flag"
+  ],
+  "scope": "Data/structural/quality/resource/time arithmetic audit. Does not prove causal attribution or statistical superiority."
+}

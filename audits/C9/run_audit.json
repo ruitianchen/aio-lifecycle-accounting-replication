@@ -1,0 +1,520 @@
+[
+  {
+    "run_id": "Q_B200_b0_p1_DIRECT_PARALLEL",
+    "role": "qualification",
+    "B": 200,
+    "arm": "DIRECT_PARALLEL",
+    "folder": "external-evidence/Q_B200_b0_p1_DIRECT_PARALLEL/Q_B200_b0_p1_DIRECT_PARALLEL",
+    "status": "PASS",
+    "index_comparison": null,
+    "execution_sha256": "638f518c988d76d9e322cc647c6a1de9bbecef6e8b132c1925945e2a078583c2",
+    "result_sha256": "facd90d56592fe1534caf666e90f066dc43d81da9e8c0b4162d183e604d95b50"
+  },
+  {
+    "run_id": "Q_B200_b0_p2_DIRECT_POOL",
+    "role": "qualification",
+    "B": 200,
+    "arm": "DIRECT_POOL",
+    "folder": "external-evidence/Q_B200_b0_p2_DIRECT_POOL/Q_B200_b0_p2_DIRECT_POOL",
+    "status": "PASS",
+    "index_comparison": null,
+    "execution_sha256": "2c1e881dde1ace5a907836a89e11a0e215d2b5935b6bcb09b7c82965e230dcab",
+    "result_sha256": "7480546b1d2469bb8749dc0495f856521ebfe6d66eb9f0af4c02a3f119c80ed4"
+  },
+  {
+    "run_id": "Q_B200_b0_p3_A1_F",
+    "role": "qualification",
+    "B": 200,
+    "arm": "A1_F",
+    "folder": "external-evidence/Q_B200_b0_p3_A1_F/Q_B200_b0_p3_A1_F",
+    "status": "PASS",
+    "index_comparison": null,
+    "execution_sha256": "625808e558e055de0e75ebf1b7506f70e75a1325e0811c4332f086a567f47455",
+    "result_sha256": "b504319dadbd416c1dec47dd6533fe49c2f20454dc7bc2cb6a6e8e0cacd08417"
+  },
+  {
+    "run_id": "F_B200_b1_p1_A1_F",
+    "role": "performance",
+    "B": 200,
+    "arm": "A1_F",
+    "folder": "external-evidence/F_B200_b1_p1_A1_F/F_B200_b1_p1_A1_F",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 393158,
+          "positions": [
+            [
+              3,
+              199317,
+              278133
+            ],
+            [
+              4,
+              278133,
+              199317
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 6
+    },
+    "execution_sha256": "4ecd1012ae546157d225f4fd45ed30369be8ab7818f08d079f4c2ef2ec4c7b3e",
+    "result_sha256": "ee88cc08dc09e8725322bcf3f0e264c76e6102b928285ae154d8f1b11cf98046"
+  },
+  {
+    "run_id": "F_B200_b1_p2_DIRECT_PARALLEL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_PARALLEL",
+    "folder": "external-evidence/F_B200_b1_p2_DIRECT_PARALLEL/F_B200_b1_p2_DIRECT_PARALLEL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 393158,
+          "positions": [
+            [
+              3,
+              199317,
+              278133
+            ],
+            [
+              4,
+              278133,
+              199317
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 6
+    },
+    "execution_sha256": "70c1dd43e58423f63cdb222b694a13587f5fadd6ab3569b03c8d705b014a47c4",
+    "result_sha256": "773275a2a61fff1a6adb3c32869cc23a6f67d65fb21d771a32f95f03fb6df741"
+  },
+  {
+    "run_id": "F_B200_b1_p3_DIRECT_POOL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_POOL",
+    "folder": "external-evidence/F_B200_b1_p3_DIRECT_POOL/F_B200_b1_p3_DIRECT_POOL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "BYTE_IDENTICAL",
+      "needs_independent_query": false,
+      "changed_nodes": []
+    },
+    "execution_sha256": "5ffe9525678212eb09da553760d27c5eca1ff7d5059f2b0ad1b998224ea982d7",
+    "result_sha256": "ce6fbd499eec39c0fc749f4d390ac4f082c001d5fd0ea327d5a40ff6ebdeac9d"
+  },
+  {
+    "run_id": "F_B200_b2_p1_A1_F",
+    "role": "performance",
+    "B": 200,
+    "arm": "A1_F",
+    "folder": "external-evidence/F_B200_b2_p1_A1_F/F_B200_b2_p1_A1_F",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "BYTE_IDENTICAL",
+      "needs_independent_query": false,
+      "changed_nodes": []
+    },
+    "execution_sha256": "39161c2573c90dbf568feebd16f994feaa9de9c223df52b0fe4fd5c7976241fe",
+    "result_sha256": "753b8a3bcaa6a2f8bb95a75584e7e0d6affb98801afdf6209cf81a60191c3bcc"
+  },
+  {
+    "run_id": "F_B200_b2_p2_DIRECT_POOL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_POOL",
+    "folder": "external-evidence/F_B200_b2_p2_DIRECT_POOL/F_B200_b2_p2_DIRECT_POOL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 393158,
+          "positions": [
+            [
+              3,
+              199317,
+              278133
+            ],
+            [
+              4,
+              278133,
+              199317
+            ]
+          ]
+        },
+        {
+          "node": 499989,
+          "positions": [
+            [
+              9,
+              265571,
+              201293
+            ],
+            [
+              10,
+              201293,
+              265571
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 12
+    },
+    "execution_sha256": "abc4d9c738561318fe8229d7a2e41d984d94b1755ba278a8f94f5b756d477bb0",
+    "result_sha256": "ea87d82f6b25f656d8ccc88dd4a4b9ddfc8e9d43ebd6dab2b038ad0a362f1aba"
+  },
+  {
+    "run_id": "F_B200_b2_p3_DIRECT_PARALLEL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_PARALLEL",
+    "folder": "external-evidence/F_B200_b2_p3_DIRECT_PARALLEL/F_B200_b2_p3_DIRECT_PARALLEL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "BYTE_IDENTICAL",
+      "needs_independent_query": false,
+      "changed_nodes": []
+    },
+    "execution_sha256": "5c381754e7f05fd542683bca40dd2e4e2dcf0caf4ef7b9da1ba137624c2cf0a9",
+    "result_sha256": "f02c9a0042ff5f43c8511a7cb9ef7deca66ee3c49c1cb5ed70e20d3a052082a8"
+  },
+  {
+    "run_id": "F_B200_b3_p1_DIRECT_POOL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_POOL",
+    "folder": "external-evidence/F_B200_b3_p1_DIRECT_POOL/F_B200_b3_p1_DIRECT_POOL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "BYTE_IDENTICAL",
+      "needs_independent_query": false,
+      "changed_nodes": []
+    },
+    "execution_sha256": "33c9c32a78cf1183d8290f9ddaf13861312a77f098723305ed0d6d339395e49b",
+    "result_sha256": "02d2c5c39f585fb8dcbfa4e16befa6e1dcd911458e3192ea4c2150ac9a7a7308"
+  },
+  {
+    "run_id": "F_B200_b3_p2_DIRECT_PARALLEL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_PARALLEL",
+    "folder": "external-evidence/F_B200_b3_p2_DIRECT_PARALLEL/F_B200_b3_p2_DIRECT_PARALLEL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 393158,
+          "positions": [
+            [
+              3,
+              199317,
+              278133
+            ],
+            [
+              4,
+              278133,
+              199317
+            ]
+          ]
+        },
+        {
+          "node": 499989,
+          "positions": [
+            [
+              9,
+              265571,
+              201293
+            ],
+            [
+              10,
+              201293,
+              265571
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 12
+    },
+    "execution_sha256": "d0886061ac085ddefe76302451af3b7cc4ff486a14f58e5218e7797a87c83f98",
+    "result_sha256": "be368e70f6f548aab47aa6155d1df713c4a2429ce195217bb1abacbc5f6425cb"
+  },
+  {
+    "run_id": "F_B200_b3_p3_A1_F",
+    "role": "performance",
+    "B": 200,
+    "arm": "A1_F",
+    "folder": "external-evidence/F_B200_b3_p3_A1_F/F_B200_b3_p3_A1_F",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 393158,
+          "positions": [
+            [
+              3,
+              199317,
+              278133
+            ],
+            [
+              4,
+              278133,
+              199317
+            ]
+          ]
+        },
+        {
+          "node": 499989,
+          "positions": [
+            [
+              9,
+              265571,
+              201293
+            ],
+            [
+              10,
+              201293,
+              265571
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 12
+    },
+    "execution_sha256": "ab3da6e41298efff456f78ab67885ab7d5f8134d4d78a1931ea0c7651113c0c6",
+    "result_sha256": "c15ae909852e5d6f9148f9908a7420870ddfd5695dfd10d64da68d57dddd25af"
+  },
+  {
+    "run_id": "F_B200_b4_p1_DIRECT_PARALLEL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_PARALLEL",
+    "folder": "external-evidence/F_B200_b4_p1_DIRECT_PARALLEL/F_B200_b4_p1_DIRECT_PARALLEL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 499989,
+          "positions": [
+            [
+              9,
+              265571,
+              201293
+            ],
+            [
+              10,
+              201293,
+              265571
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 6
+    },
+    "execution_sha256": "cd972df0f7b121b37ef1f0d92141d02fa24bf46fada9afb8b11dd47e108f660e",
+    "result_sha256": "b9b1a9a314e22b5ca9d1ee4c057fbc157cdb7a392d282522f539dda79c20e4a7"
+  },
+  {
+    "run_id": "F_B200_b4_p2_DIRECT_POOL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_POOL",
+    "folder": "external-evidence/F_B200_b4_p2_DIRECT_POOL/F_B200_b4_p2_DIRECT_POOL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 499989,
+          "positions": [
+            [
+              9,
+              265571,
+              201293
+            ],
+            [
+              10,
+              201293,
+              265571
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 6
+    },
+    "execution_sha256": "4e0a9831afe158d5a7976770ac080aceb37f39e8296dc76634d817b9364fa9fb",
+    "result_sha256": "5b0ca610efc0e242ef5183a66f1aa67f8c9b48a23fa670e4c796d53d22f299dc"
+  },
+  {
+    "run_id": "F_B200_b4_p3_A1_F",
+    "role": "performance",
+    "B": 200,
+    "arm": "A1_F",
+    "folder": "external-evidence/F_B200_b4_p3_A1_F/F_B200_b4_p3_A1_F",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 499989,
+          "positions": [
+            [
+              9,
+              265571,
+              201293
+            ],
+            [
+              10,
+              201293,
+              265571
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 6
+    },
+    "execution_sha256": "75a294dd30a9bce3108570af099d5dde381e63fcc8cec4ccdc86a4eeacb8c66b",
+    "result_sha256": "61fdb5f8222be3c78aeaf83f0f2bf8b23bd01eafe3e4a28e6e63eb646ec76516"
+  },
+  {
+    "run_id": "F_B200_b5_p1_DIRECT_PARALLEL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_PARALLEL",
+    "folder": "external-evidence/F_B200_b5_p1_DIRECT_PARALLEL/F_B200_b5_p1_DIRECT_PARALLEL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "BYTE_IDENTICAL",
+      "needs_independent_query": false,
+      "changed_nodes": []
+    },
+    "execution_sha256": "24304a7d6ab72e6c43df4b9c58414c96145d871ff48bd16edc8b0afe3632b788",
+    "result_sha256": "665ac2ebf23b907a3943fef385aa45e9e7d744b5dc37e5a8e1797ac11d88b4a2"
+  },
+  {
+    "run_id": "F_B200_b5_p2_A1_F",
+    "role": "performance",
+    "B": 200,
+    "arm": "A1_F",
+    "folder": "external-evidence/F_B200_b5_p2_A1_F/F_B200_b5_p2_A1_F",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 393158,
+          "positions": [
+            [
+              3,
+              199317,
+              278133
+            ],
+            [
+              4,
+              278133,
+              199317
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 6
+    },
+    "execution_sha256": "69af4cec6e2a2c3685c0a235d69fd854092e0ae24b87314e4b5a3c84761552bc",
+    "result_sha256": "d737e6d8b2f9f035475c5a409fcbcb316d18b11adcc3a58b38982aace2492ff2"
+  },
+  {
+    "run_id": "F_B200_b5_p3_DIRECT_POOL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_POOL",
+    "folder": "external-evidence/F_B200_b5_p3_DIRECT_POOL/F_B200_b5_p3_DIRECT_POOL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "BYTE_IDENTICAL",
+      "needs_independent_query": false,
+      "changed_nodes": []
+    },
+    "execution_sha256": "0016d6276a4d65e68f5b3eb3dbdafad2b8649bf949bbadc225dad43c64eff541",
+    "result_sha256": "635fb4462fd4f279352011d5e0362f9fd5e7c2aaf92cd37c410678923b10da54"
+  },
+  {
+    "run_id": "F_B200_b6_p1_DIRECT_POOL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_POOL",
+    "folder": "external-evidence/F_B200_b6_p1_DIRECT_POOL/F_B200_b6_p1_DIRECT_POOL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "BYTE_IDENTICAL",
+      "needs_independent_query": false,
+      "changed_nodes": []
+    },
+    "execution_sha256": "028b9d400e9e3cad58f098e6055227a6cc7a5fd42ec8fef325dd5ef8eaeaf9a0",
+    "result_sha256": "65b6322e0a83f6f26ad3969ae35623a4580bfe3732c8e86ddce57c5aa46d9861"
+  },
+  {
+    "run_id": "F_B200_b6_p2_A1_F",
+    "role": "performance",
+    "B": 200,
+    "arm": "A1_F",
+    "folder": "external-evidence/F_B200_b6_p2_A1_F/F_B200_b6_p2_A1_F",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "DUPLICATE_VECTOR_PQ_PERMUTATION_REQUIRES_QUERY",
+      "needs_independent_query": true,
+      "changed_nodes": [
+        {
+          "node": 499989,
+          "positions": [
+            [
+              9,
+              265571,
+              201293
+            ],
+            [
+              10,
+              201293,
+              265571
+            ]
+          ]
+        }
+      ],
+      "main_differing_bytes": 6
+    },
+    "execution_sha256": "64d12e037728c3e203277c8779b7b2d962e5921d446d03ec5fc1096b50b61fa9",
+    "result_sha256": "5fd1d4371e0db895d4f886b09538586a6c658fabd436338088d3c301755f9d53"
+  },
+  {
+    "run_id": "F_B200_b6_p3_DIRECT_PARALLEL",
+    "role": "performance",
+    "B": 200,
+    "arm": "DIRECT_PARALLEL",
+    "folder": "external-evidence/F_B200_b6_p3_DIRECT_PARALLEL/F_B200_b6_p3_DIRECT_PARALLEL",
+    "status": "PASS",
+    "index_comparison": {
+      "status": "BYTE_IDENTICAL",
+      "needs_independent_query": false,
+      "changed_nodes": []
+    },
+    "execution_sha256": "c748d5931cd09df53954b0b6ff988d1b34ca61ea3b46c4b8d29632c7a2c957d7",
+    "result_sha256": "33375763ac0486190573aa0388d35d2445b57812d3ab0e570be1bf43df52847e"
+  }
+]

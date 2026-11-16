@@ -1,0 +1,10 @@
+﻿instances,repeat,setup_attempts,setup_successes,destroy_successes,aio_nr_held,aio_nr_idle,eagain_count,aio_nr_after,all_checks_pass
+1,1,13,13,13,13312,13312,0,0,True
+1,2,13,13,13,13312,13312,0,0,True
+1,3,13,13,13,13312,13312,0,0,True
+4,1,52,52,52,53248,53248,0,0,True
+4,2,52,52,52,53248,53248,0,0,True
+4,3,52,52,52,53248,53248,0,0,True
+5,1,65,64,64,65536,65536,1,0,True
+5,2,65,64,64,65536,65536,1,0,True
+5,3,65,64,64,65536,65536,1,0,True

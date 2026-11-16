@@ -1,0 +1,23 @@
+{
+  "role": "PUBLIC_REPRODUCTION_SUMMARY_NOT_ORIGINAL_FREEZE",
+  "graph": "SIFT500k",
+  "W_per_operation": 10000,
+  "B": [
+    200,
+    2000
+  ],
+  "maintenance_threads": 10,
+  "query_threads": 3,
+  "insert_threads": 1,
+  "queue_depth": 1024,
+  "repair_threshold": 2,
+  "formal_blocks": 6,
+  "qualification": 6,
+  "formal": 36,
+  "primary": "A1_F vs DIRECT_PARALLEL at B200",
+  "auxiliary_Holm_family": 5,
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20261024,
+  "all_formal_retained": true,
+  "practical_improvement_threshold_pct": 1
+}

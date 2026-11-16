@@ -1,0 +1,10 @@
+{
+  "status": "PASS_BOUNDED_RELEASE_CONTENT_SCAN",
+  "text_files_scanned": 270,
+  "private_key_matches": 0,
+  "auth_assignment_matches": 0,
+  "private_deployment_path_matches": 0,
+  "github_token_matches": 0,
+  "scope": "Known secret/path patterns and selected export inventory; no matched values logged.",
+  "remote_deployment_helpers_included": false
+}

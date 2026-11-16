@@ -1,0 +1,38 @@
+{
+  "status": "LOCAL_PREPARED_NOT_UPLOADED",
+  "artifact_version": "2026-10-26-local",
+  "author_added_code_license": "MIT",
+  "public_repository_url": null,
+  "persistent_archive_doi": null,
+  "remote_repository_created": false,
+  "remote_upload_completed": false,
+  "new_scientific_runs_during_packaging": 0,
+  "formal_windows": 322,
+  "accepted_ann_windows_in_study": 421,
+  "independent_diagnostic_processes_or_scenes": 38,
+  "native_source_variants": [
+    "C8",
+    "C9"
+  ],
+  "compile_check_environment": "Ubuntu-24.04 under local WSL; compiler/linker only",
+  "performance_experiments_rerun": false,
+  "raw_vectors_included": false,
+  "large_retained_indices_included": false,
+  "prepared_non_vector_input_files_included": 73,
+  "third_party_notices_retained": true,
+  "upstream_LICENSE_bytes_checked_against_pinned_commit": true,
+  "manuscript_snapshot": "Anonymized English JKSU manuscript and supplement snapshots",
+  "native_future_execution_branch": "Provided with explicit opt-in; not executed during packaging",
+  "author_and_publication_metadata": "Not fabricated; update when actual publication metadata is known",
+  "offline_windows_replay_verified": true,
+  "offline_linux_replay_verified": true,
+  "bootstrap_and_Holm_replay_verified": true,
+  "source_compile_and_link_verified": [
+    "C8",
+    "C9",
+    "C4_empty_context"
+  ],
+  "archive_extraction_and_different_path_replay_verified": true,
+  "tampered_and_unlisted_file_rejection_verified": true,
+  "public_upload_completed": false
+}

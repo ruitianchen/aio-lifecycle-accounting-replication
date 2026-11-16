@@ -1,0 +1,48 @@
+[
+  {
+    "decision_id": "D-original-analysis",
+    "timing": "PRE_RESULTS",
+    "kind": "METRIC",
+    "planned": true,
+    "classification": "CONFIRMATORY",
+    "affected_claim_ids": [
+      "B200:A1_F_vs_DIRECT_PARALLEL",
+      "B200:A1_F_vs_DIRECT_SERIAL",
+      "B200:DIRECT_PARALLEL_vs_DIRECT_SERIAL",
+      "B2000:A1_F_vs_DIRECT_PARALLEL",
+      "B2000:A1_F_vs_DIRECT_SERIAL",
+      "B2000:DIRECT_PARALLEL_vs_DIRECT_SERIAL"
+    ],
+    "rationale": "One primary and five secondary comparisons locked before new-platform ANN data; median ratio,paired log bootstrap,sign test,Holm family unchanged",
+    "evidence_locator": "external-evidence/preregistration.md"
+  },
+  {
+    "decision_id": "D-sensitive-blocks",
+    "timing": "POST_RESULTS",
+    "kind": "ANALYSIS_SET",
+    "planned": false,
+    "classification": "SENSITIVITY",
+    "affected_claim_ids": [
+      "B200:A1_F_vs_DIRECT_PARALLEL",
+      "B200:A1_F_vs_DIRECT_SERIAL",
+      "B200:DIRECT_PARALLEL_vs_DIRECT_SERIAL",
+      "B2000:A1_F_vs_DIRECT_PARALLEL",
+      "B2000:A1_F_vs_DIRECT_SERIAL",
+      "B2000:DIRECT_PARALLEL_vs_DIRECT_SERIAL"
+    ],
+    "rationale": "LOBO and flagged package-overlap whole-block removal; full six-block analysis stays primary; no replacement runs",
+    "evidence_locator": "external-evidence/package_activity_flags.json"
+  },
+  {
+    "decision_id": "D-existing-io",
+    "timing": "POST_RESULTS",
+    "kind": "SUBGROUP",
+    "planned": false,
+    "classification": "EXPLORATORY",
+    "affected_claim_ids": [
+      "B200:A1_F_vs_DIRECT_PARALLEL"
+    ],
+    "rationale": "Existing detailed qualification IO and host-wide disk counter localization after the negative full-window effect was observed",
+    "evidence_locator": "external-evidence/exploratory_io.json"
+  }
+]

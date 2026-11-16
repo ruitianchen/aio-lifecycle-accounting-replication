@@ -1,0 +1,14 @@
+[
+  {
+    "path": "src/variants/C8/driver.cpp",
+    "frozen_evidence_id": "C8_final_recovery_v7",
+    "byte_identical": true,
+    "sha256": "bc4f87f82e27d82ca07b2a9551451d0e9316d6991a9fd0212916395251e29787"
+  },
+  {
+    "path": "src/native/driver.cpp",
+    "frozen_evidence_id": "C9_final_recovery_v2",
+    "byte_identical": true,
+    "sha256": "41b31e6505c91bca7b054332814213d061491b5121ba5f0e21b8a60b26021fcc"
+  }
+]

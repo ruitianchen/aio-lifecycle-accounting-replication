@@ -1,0 +1,15 @@
+﻿run_id,role,mode,sampling,block,position,warmup,measured,group1,group2,destroy_wall_center_s,destroy_sum_api_center_s,destroy_union_api_center_s,raw_samples,matched_measured_destroy_samples,measured_destroy_calls_with_sample,measured_destroy_calls,unavailable_samples,boundary_samples,warmup_matched_samples
+Q_serial_threads,qualification,serial_threads,True,0,0,0,3,1,0,0.01869530198746361,0.018653979001101106,0.018653979001101106,25,25,3,3,0,0,0
+Q_parallel_threads,qualification,parallel_threads,True,0,0,0,3,1,0,0.01621696600341238,0.01614880099077709,0.01614880099077709,22,21,3,3,1,0,0
+D_b1_p1_parallel_threads_OFF,diagnostic,parallel_threads,False,1,1,2,7,10,3,0.039808458008337766,0.23173962195869535,0.03975123498821631,0,0,0,91,0,0,0
+D_b1_p2_serial_threads_OFF,diagnostic,serial_threads,False,1,2,2,7,10,3,0.22981798701221123,0.22864797894726507,0.22864797894726507,0,0,0,91,0,0,0
+D_b1_p3_parallel_threads_ON,diagnostic,parallel_threads,True,1,3,2,7,10,3,0.039613231987459585,0.22681190603179857,0.03951159698772244,802,626,91,91,0,2,174
+D_b1_p4_serial_threads_ON,diagnostic,serial_threads,True,1,4,2,7,10,3,0.21733202700852416,0.21638452101615258,0.21638452101615258,818,632,91,91,10,2,174
+D_b2_p1_serial_threads_ON,diagnostic,serial_threads,True,2,1,2,7,10,3,0.2221311170142144,0.22097028302960098,0.22097028302960098,815,631,91,91,0,3,181
+D_b2_p2_serial_threads_OFF,diagnostic,serial_threads,False,2,2,2,7,10,3,0.21994119801092893,0.21858007099945098,0.21858007099945098,0,0,0,91,0,0,0
+D_b2_p3_parallel_threads_ON,diagnostic,parallel_threads,True,2,3,2,7,10,3,0.042567617987515405,0.2439736020169221,0.04246289801085368,870,680,91,91,0,2,188
+D_b2_p4_parallel_threads_OFF,diagnostic,parallel_threads,False,2,4,2,7,10,3,0.03949031900265254,0.23793208005372435,0.0393804770137649,0,0,0,91,0,0,0
+D_b3_p1_parallel_threads_OFF,diagnostic,parallel_threads,False,3,1,2,7,10,3,0.04054512700531632,0.2193926540785469,0.040463125973474234,0,0,0,91,0,0,0
+D_b3_p2_serial_threads_ON,diagnostic,serial_threads,True,3,2,2,7,10,3,0.22109346999786794,0.21994645494851284,0.21994645494851284,839,648,91,91,0,3,188
+D_b3_p3_parallel_threads_ON,diagnostic,parallel_threads,True,3,3,2,7,10,3,0.03955265597323887,0.22258310799952596,0.03946791202179156,772,611,91,91,0,1,160
+D_b3_p4_serial_threads_OFF,diagnostic,serial_threads,False,3,4,2,7,10,3,0.21895548899192363,0.21783585206139833,0.21783585206139833,0,0,0,91,0,0,0

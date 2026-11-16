@@ -1,0 +1,92 @@
+{
+  "status": "PASS_COMPILE_AND_LINK_ONLY",
+  "variant": "C8",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "commands": [
+    {
+      "name": "lib0",
+      "returncode": 0
+    },
+    {
+      "name": "lib4",
+      "returncode": 0
+    },
+    {
+      "name": "lib2",
+      "returncode": 0
+    },
+    {
+      "name": "lib3",
+      "returncode": 0
+    },
+    {
+      "name": "lib7",
+      "returncode": 0
+    },
+    {
+      "name": "lib8",
+      "returncode": 0
+    },
+    {
+      "name": "lib5",
+      "returncode": 0
+    },
+    {
+      "name": "lib9",
+      "returncode": 0
+    },
+    {
+      "name": "lib11",
+      "returncode": 0
+    },
+    {
+      "name": "lib1",
+      "returncode": 0
+    },
+    {
+      "name": "lib12",
+      "returncode": 0
+    },
+    {
+      "name": "lib13",
+      "returncode": 0
+    },
+    {
+      "name": "lib10",
+      "returncode": 0
+    },
+    {
+      "name": "lib6",
+      "returncode": 0
+    },
+    {
+      "name": "lib14",
+      "returncode": 0
+    },
+    {
+      "name": "archive",
+      "returncode": 0
+    },
+    {
+      "name": "overall",
+      "returncode": 0
+    },
+    {
+      "name": "search",
+      "returncode": 0
+    },
+    {
+      "name": "pq_oracle",
+      "returncode": 0
+    }
+  ],
+  "binary_sha256": {
+    "overall": "aa575ed408587b1b06720e445a01c108ab89f7348eeb868df1832d53b2e03de8",
+    "search": "cdac9d6b99412ee78532777cdea99fdd3a4d594b2c317036da3a792a9a641117",
+    "pq_oracle": "d6268571b7d0fcf72eae02517f3e64542c23e0d10595b84939ae055032abd9e9"
+  },
+  "elapsed_s": 111.376889119,
+  "executables_run": 0,
+  "performance_qualification": false,
+  "environment": "Local Ubuntu-24.04 WSL compile/link validation, not the original platform-B performance environment"
+}

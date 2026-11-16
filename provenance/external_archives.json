@@ -1,0 +1,30 @@
+{
+  "public_archive_url": null,
+  "doi": null,
+  "items": [
+    {
+      "id": "source_and_inputs_v3",
+      "bytes": 498285328,
+      "sha256": "396e7af2f0838cac6250d3599b804a431a435545b3a5e0cd4f75c06e308e3835",
+      "role": "original source and SIFT500k inputs; redistribution rights to confirm"
+    },
+    {
+      "id": "C8_metadata",
+      "bytes": 58128948,
+      "sha256": "b0ce2cbdf4dcfc4827ef2f9532869cec50c813ae6f0487b83f85dab5f1b161c9",
+      "role": "original evidence; private until reviewed"
+    },
+    {
+      "id": "C8_retained_indices",
+      "bytes": 3811280647,
+      "sha256": "0336fb4efb66daff0d5736acf94dbd87a702dd6a74e1e4953faf57657131a925",
+      "role": "retained qualified index artifacts"
+    },
+    {
+      "id": "C9_retained_indices",
+      "bytes": 1655559009,
+      "sha256": "823ca3298a4219f5a8a88ca1f8bc33bdffda93fe8f2e259caf5f3035a0579b75",
+      "role": "retained qualified index artifacts"
+    }
+  ]
+}

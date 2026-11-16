@@ -1,0 +1,30 @@
+{
+  "status": "PASS_DATA_RESOURCE_AND_PAIRING_AUDIT_WITH_ENVIRONMENT_WARNINGS",
+  "utc": "2026-10-24T09:13:37.703429+00:00",
+  "qualification": 6,
+  "formal": 36,
+  "checkpoints": 36,
+  "cross_arm_comparisons": 24,
+  "signature_checks": 58,
+  "retained_paths": 504,
+  "unique_blob_hashes": 59,
+  "metadata_files": 1567,
+  "package_activity_flag": "F_B200_b2_p1_DIRECT_PARALLEL",
+  "acquisition_roots": [
+    "v4",
+    "v6",
+    "v7"
+  ],
+  "old_stops_preserved": true,
+  "controller_status_not_modified": true,
+  "inference_limits": [
+    "One fixed graph and trajectory",
+    "six process blocks per B",
+    "package-activity overlap",
+    "interrupted acquisition",
+    "different CPU,OS,storage together; not an orthogonal hardware ablation",
+    "not out-of-core",
+    "no direct thermal-throttle flag"
+  ],
+  "scope": "Data/structural/quality/resource/time arithmetic audit. Does not prove causal attribution or statistical superiority."
+}

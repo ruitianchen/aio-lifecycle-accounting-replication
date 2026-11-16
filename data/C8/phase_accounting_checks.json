@@ -1,0 +1,296 @@
+[
+  {
+    "run_id": "Q_B200_DIRECT_SERIAL",
+    "exclusive_partition_ns": 96382567755,
+    "window_ns": 96382567755,
+    "rounding_error_s": 5.968558980384842e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "Q_B200_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 90778688424,
+    "window_ns": 90778688424,
+    "rounding_error_s": 5.115907697472721e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "Q_B200_A1_F",
+    "exclusive_partition_ns": 108275016515,
+    "window_ns": 108275016515,
+    "rounding_error_s": -9.663381206337363e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "Q_B2000_DIRECT_SERIAL",
+    "exclusive_partition_ns": 39338297991,
+    "window_ns": 39338297991,
+    "rounding_error_s": -2.2026824808563106e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "Q_B2000_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 36513890122,
+    "window_ns": 36513890122,
+    "rounding_error_s": 2.0605739337042905e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "Q_B2000_A1_F",
+    "exclusive_partition_ns": 40086429112,
+    "window_ns": 40086429112,
+    "rounding_error_s": 3.197442310920451e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b1_p1_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 84392036470,
+    "window_ns": 84392036470,
+    "rounding_error_s": -6.821210263296962e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b1_p2_DIRECT_SERIAL",
+    "exclusive_partition_ns": 89426061804,
+    "window_ns": 89426061804,
+    "rounding_error_s": -7.105427357601002e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b1_p3_A1_F",
+    "exclusive_partition_ns": 98979014207,
+    "window_ns": 98979014207,
+    "rounding_error_s": 3.694822225952521e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b1_p1_A1_F",
+    "exclusive_partition_ns": 32489361376,
+    "window_ns": 32489361376,
+    "rounding_error_s": -1.3997691894473974e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b1_p2_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 31362286714,
+    "window_ns": 31362286714,
+    "rounding_error_s": -2.2026824808563106e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b1_p3_DIRECT_SERIAL",
+    "exclusive_partition_ns": 30358984376,
+    "window_ns": 30358984376,
+    "rounding_error_s": -8.171241461241152e-14,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b2_p1_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 31407757865,
+    "window_ns": 31407757865,
+    "rounding_error_s": 5.613287612504791e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b2_p2_A1_F",
+    "exclusive_partition_ns": 32343411925,
+    "window_ns": 32343411925,
+    "rounding_error_s": 2.2168933355715126e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b2_p3_DIRECT_SERIAL",
+    "exclusive_partition_ns": 33859287221,
+    "window_ns": 33859287221,
+    "rounding_error_s": 7.531752999057062e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b2_p1_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 86489614834,
+    "window_ns": 86489614834,
+    "rounding_error_s": -1.2647660696529783e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b2_p2_A1_F",
+    "exclusive_partition_ns": 98138762677,
+    "window_ns": 98138762677,
+    "rounding_error_s": 2.5721647034515627e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b2_p3_DIRECT_SERIAL",
+    "exclusive_partition_ns": 93668443554,
+    "window_ns": 93668443554,
+    "rounding_error_s": 2.6574298317427747e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b3_p1_A1_F",
+    "exclusive_partition_ns": 90441528353,
+    "window_ns": 90441528353,
+    "rounding_error_s": 2.5579538487363607e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b3_p2_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 87934006979,
+    "window_ns": 87934006979,
+    "rounding_error_s": -1.4210854715202004e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b3_p3_DIRECT_SERIAL",
+    "exclusive_partition_ns": 94124144002,
+    "window_ns": 94124144002,
+    "rounding_error_s": 1.4921397450962104e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b3_p1_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 31610009117,
+    "window_ns": 31610009117,
+    "rounding_error_s": -1.0267342531733448e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b3_p2_DIRECT_SERIAL",
+    "exclusive_partition_ns": 32854088816,
+    "window_ns": 32854088816,
+    "rounding_error_s": -2.3305801732931286e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b3_p3_A1_F",
+    "exclusive_partition_ns": 31320056915,
+    "window_ns": 31320056915,
+    "rounding_error_s": 5.577760475716786e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b4_p1_DIRECT_SERIAL",
+    "exclusive_partition_ns": 33121011131,
+    "window_ns": 33121011131,
+    "rounding_error_s": 7.531752999057062e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b4_p2_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 30386518865,
+    "window_ns": 30386518865,
+    "rounding_error_s": 2.0747847884194925e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b4_p3_A1_F",
+    "exclusive_partition_ns": 31277596353,
+    "window_ns": 31277596353,
+    "rounding_error_s": -2.6290081223123707e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b4_p1_DIRECT_SERIAL",
+    "exclusive_partition_ns": 95560758414,
+    "window_ns": 95560758414,
+    "rounding_error_s": -1.6058265828178264e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b4_p2_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 87637631556,
+    "window_ns": 87637631556,
+    "rounding_error_s": -9.947598300641403e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b4_p3_A1_F",
+    "exclusive_partition_ns": 105160194057,
+    "window_ns": 105160194057,
+    "rounding_error_s": 9.947598300641403e-14,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b5_p1_DIRECT_SERIAL",
+    "exclusive_partition_ns": 90171772504,
+    "window_ns": 90171772504,
+    "rounding_error_s": 1.8474111129762605e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b5_p2_A1_F",
+    "exclusive_partition_ns": 100154575546,
+    "window_ns": 100154575546,
+    "rounding_error_s": 7.531752999057062e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b5_p3_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 84387468058,
+    "window_ns": 84387468058,
+    "rounding_error_s": -1.1084466677857563e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b5_p1_A1_F",
+    "exclusive_partition_ns": 30640730903,
+    "window_ns": 30640730903,
+    "rounding_error_s": -7.460698725481052e-14,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b5_p2_DIRECT_SERIAL",
+    "exclusive_partition_ns": 34599589854,
+    "window_ns": 34599589854,
+    "rounding_error_s": 1.3784529073745944e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b5_p3_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 33328682000,
+    "window_ns": 33328682000,
+    "rounding_error_s": -3.0269120543380268e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b6_p1_DIRECT_SERIAL",
+    "exclusive_partition_ns": 31604110711,
+    "window_ns": 31604110711,
+    "rounding_error_s": 4.796163466380676e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b6_p2_A1_F",
+    "exclusive_partition_ns": 32316159344,
+    "window_ns": 32316159344,
+    "rounding_error_s": 1.8474111129762605e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B2000_b6_p3_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 32544353008,
+    "window_ns": 32544353008,
+    "rounding_error_s": -1.0516032489249483e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b6_p1_A1_F",
+    "exclusive_partition_ns": 97719590741,
+    "window_ns": 97719590741,
+    "rounding_error_s": 1.3216094885137863e-12,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b6_p2_DIRECT_SERIAL",
+    "exclusive_partition_ns": 96853673677,
+    "window_ns": 96853673677,
+    "rounding_error_s": -1.8474111129762605e-13,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F_B200_b6_p3_DIRECT_PARALLEL",
+    "exclusive_partition_ns": 90810951073,
+    "window_ns": 90810951073,
+    "rounding_error_s": 8.384404281969182e-13,
+    "status": "PASS"
+  }
+]

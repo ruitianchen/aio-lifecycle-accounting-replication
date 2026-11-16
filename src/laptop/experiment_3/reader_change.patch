@@ -1,0 +1,35 @@
+--- parent_reader.cpp
++++ parallel_reader.cpp
+@@ -3,6 +3,7 @@
+ #include "linux_aligned_file_reader.h"
+ #include "composition_runtime.hpp"
+ #include "bulk_io.hpp"
++#include "parallel_release.hpp"
+ #include <algorithm>
+ #include <cerrno>
+ #include <cstring>
+@@ -80,6 +81,24 @@
+ }
+ void LinuxAlignedFileReader::deregister_all_threads(){
+   std::lock_guard<std::mutex> lock(ctx_mut);
++  const char* flag=std::getenv("GRT_RECLAIM_PARALLEL");
++  require(!flag || !std::strcmp(flag,"0") || !std::strcmp(flag,"1"),"invalid parallel reclaim flag");
++  if(flag && !std::strcmp(flag,"1")) {
++    const char* arm=std::getenv("GRT_ARM");
++    require(arm && !std::strcmp(arm,"A0_DIRECT") && !composition::persistent_aio(),"parallel reclaim requires direct lifetime");
++    if(ctx_map.empty())return;
++    supplement_trace::Span span("parallel_reclaim_begin","parallel_reclaim_end",uint64_t(this));
++    supplement_trace::phase("parallel_reclaim_group",uint64_t(this),ctx_map.size());
++    std::vector<std::thread::id> keys;std::vector<IOContext> handles;
++    keys.reserve(ctx_map.size());handles.reserve(ctx_map.size());
++    for(const auto& entry:ctx_map){keys.push_back(entry.first);handles.push_back(entry.second);}
++    // No request outlives the blocking read/write methods; the owner quiesces
++    // readers before entering teardown. Workers never enter reader metadata.
++    auto result=grt_reclaim::run(handles,[](IOContext handle){composition::pool().release(handle,false);});
++    for(size_t i=0;i<keys.size();++i)if(result.success[i])ctx_map.erase(keys[i]);
++    if(result.error())std::rethrow_exception(result.error());
++    return;
++  }
+   for(const auto& entry:ctx_map) composition::pool().release(entry.second,composition::persistent_aio());
+   ctx_map.clear();
+ }

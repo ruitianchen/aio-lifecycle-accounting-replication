@@ -1,0 +1,10 @@
+{
+  "status": "PASS_LOCAL_EVIDENCE_REPLAY",
+  "formal_windows": 322,
+  "accepted_ann_windows_in_study": 421,
+  "independent_diagnostic_processes_or_scenes": 38,
+  "bootstrap_requested": false,
+  "new_scientific_runs": 0,
+  "remote_uploads": 0,
+  "scope": "Archived numerical replay, not new performance qualification."
+}

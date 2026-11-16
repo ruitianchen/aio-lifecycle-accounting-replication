@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {
+      "group": "C8",
+      "windows": 42,
+      "phase_segments": 23450,
+      "api_calls": 2936,
+      "status": "PASS_RECORDED_INTERVAL_PHASE_AND_COUNTER_ACCOUNTING"
+    },
+    {
+      "group": "C9",
+      "windows": 21,
+      "phase_segments": 22302,
+      "api_calls": 2638,
+      "status": "PASS_RECORDED_INTERVAL_PHASE_AND_COUNTER_ACCOUNTING"
+    }
+  ],
+  "new_scientific_runs": 0,
+  "claim_scope": "integer time partition and archived counters, not physical causal attribution or nanosecond accuracy"
+}

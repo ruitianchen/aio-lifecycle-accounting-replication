@@ -1,0 +1,32 @@
+[
+  {
+    "path": "audits/C8/run_audit.json",
+    "transformation": "deployment_paths_redacted_only",
+    "source_sha256": "d9093623ebb9d23678ebcf3a7cb23bf3d13a988ffc9cc3b6de9b81c1efbca31e",
+    "export_sha256": "213d15affec436de68f142fca39222950f11b1cb4079a05efb1a58ce3fe983a3"
+  },
+  {
+    "path": "audits/C8/signature_audit.json",
+    "transformation": "deployment_paths_redacted_only",
+    "source_sha256": "7c6ac770f58cac2137b5840c5263a1824bbddbfd063db9fc4c036f147975d155",
+    "export_sha256": "4da20e60645016360f8aad0243b10b26865567fc2ba47330dc2e8811ee9294ea"
+  },
+  {
+    "path": "audits/C9/run_audit.json",
+    "transformation": "deployment_paths_redacted_only",
+    "source_sha256": "a7ea31efdf24f75c8ba00083db0ad25cc3669ad2ccf8a01c4a52c7ebd4d329d7",
+    "export_sha256": "f8713c8de442ad71b3224e03a85e42158933aa1aba7f277e3bb2711e8bc872af"
+  },
+  {
+    "path": "audits/C9/signature_audit.json",
+    "transformation": "deployment_paths_redacted_only",
+    "source_sha256": "1059963d892208fc42f44024fdcc329a2fd1b06ce149687dc0a935cf0e226738",
+    "export_sha256": "fcdeda9686b10f8aab5185ec770a0c8b61bb7dedd8cbc20200339bf18106dda3"
+  },
+  {
+    "path": "data/C8/decision_ledger.json",
+    "transformation": "deployment_paths_redacted_only",
+    "source_sha256": "1237a5def79790a6fb8e3bc12cd9bd9f6e1b3ba20d5d4ba29e9db5ed97923850",
+    "export_sha256": "7e40295d3ab69ddcae9a7da685ef32e8eb8aee6447cdabe7b02ba82f1fd9f831"
+  }
+]

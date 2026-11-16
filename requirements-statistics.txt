@@ -1,0 +1,3 @@
+# Standard-library replay does not require third-party packages.
+# Frozen bootstrap core uses NumPy; no SciPy installation is needed for replay.
+numpy==2.5.4

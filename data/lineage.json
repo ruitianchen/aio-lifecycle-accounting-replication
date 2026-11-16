@@ -1,0 +1,37 @@
+[
+  {
+    "source": "P1",
+    "source_sha256": "f6ef1f96a5a9f4e3ee423024e45ab1c87fc087111493bf61e7475682d08f045d",
+    "bundled_path": "data/original_tables/P1.csv"
+  },
+  {
+    "source": "P2_P3",
+    "source_sha256": "9c36b43ce0eb867941ef07b70d487abdca9eb6909d25830f1ab45c3411ba8000",
+    "bundled_path": "data/original_tables/P2_P3.csv"
+  },
+  {
+    "source": "C1_C2",
+    "source_sha256": "61c87c2f8c68c12605482256aa41bc1a694393ce19a84467c17a2cd4a4499736",
+    "bundled_path": "data/original_tables/C1_C2.csv"
+  },
+  {
+    "source": "C7",
+    "source_sha256": "8277a16011f0bb941ed9dd3d193b719c6278ec0cb56d1a10b9db32a46e9c4a19",
+    "bundled_path": "data/original_tables/C7.csv"
+  },
+  {
+    "source": "C8",
+    "source_sha256": "08b80941055203bc060f1eb35dc172e1767ca1e7fa50d3d77a8473ee82c14940",
+    "bundled_path": "data/original_tables/C8.csv"
+  },
+  {
+    "source": "C9",
+    "source_sha256": "675f8fc64f52f504fa7a685e7d8927c78a0a9e090c4f9998b1531dc8674b2353",
+    "bundled_path": "data/original_tables/C9.csv"
+  },
+  {
+    "source": "P4",
+    "source_sha256": "40ed3e4e78214107783497e885c5e7d6d64987faad5327689cb33eb134fbfd58",
+    "bundled_path": "data/original_tables/P4.json"
+  }
+]

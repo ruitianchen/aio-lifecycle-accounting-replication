@@ -1,0 +1,44 @@
+[
+  {
+    "comparison_id": "B200:DIRECT_POOL_vs_DIRECT_PARALLEL",
+    "family": "primary",
+    "n": 6,
+    "ratio_of_medians_pct": -1.0553289205791128,
+    "geometric_reduction_ci95_pct": [
+      -7.4545395778511825,
+      2.105194349878514
+    ],
+    "sign_p": 1.0,
+    "adjusted_p": 1.0,
+    "scope": "Conditional process-block evidence; six repeated runs, one graph; no physical-cause or universal-superiority assertion",
+    "writing_status": "REVIEW_REQUIRED"
+  },
+  {
+    "comparison_id": "B200:A1_F_vs_DIRECT_POOL",
+    "family": "secondary2",
+    "n": 6,
+    "ratio_of_medians_pct": -15.945091869341077,
+    "geometric_reduction_ci95_pct": [
+      -17.36473751629799,
+      -10.682485888920956
+    ],
+    "sign_p": 0.03125,
+    "adjusted_p": 0.0625,
+    "scope": "Conditional process-block evidence; six repeated runs, one graph; no physical-cause or universal-superiority assertion",
+    "writing_status": "REVIEW_REQUIRED"
+  },
+  {
+    "comparison_id": "B200:A1_F_vs_DIRECT_PARALLEL",
+    "family": "secondary2",
+    "n": 6,
+    "ratio_of_medians_pct": -17.16869395583025,
+    "geometric_reduction_ci95_pct": [
+      -21.091399693642487,
+      -13.752406834780162
+    ],
+    "sign_p": 0.03125,
+    "adjusted_p": 0.0625,
+    "scope": "Conditional process-block evidence; six repeated runs, one graph; no physical-cause or universal-superiority assertion",
+    "writing_status": "REVIEW_REQUIRED"
+  }
+]

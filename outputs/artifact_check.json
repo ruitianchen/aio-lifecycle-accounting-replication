@@ -1,0 +1,10 @@
+{
+  "status": "PASS_LOCAL_ARTIFACT_INTEGRITY",
+  "files_verified": 580,
+  "formal_windows": 322,
+  "manuscript_included": false,
+  "new_scientific_runs": 0,
+  "public_upload_completed": false,
+  "author_added_code_license": "MIT",
+  "scope": "Checksums, complete inclusion, source/data lineage, formal-window identities and bounded secret-pattern scan; not manuscript citation review or performance qualification."
+}

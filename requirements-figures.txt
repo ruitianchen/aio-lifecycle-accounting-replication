@@ -1,0 +1,2 @@
+# Plotting only; no experimental runs are started.
+matplotlib==3.11.2

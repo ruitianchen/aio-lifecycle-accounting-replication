@@ -1,0 +1,7 @@
+{
+  "status": "PASS_PATH_ONLY_REDACTION",
+  "files": 5,
+  "path_string_values_redacted": 152,
+  "numerical_boolean_and_status_values_preserved": true,
+  "original_files_unchanged": true
+}
